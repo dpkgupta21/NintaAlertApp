@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">WSI_NintaBlackBoxAlert_App.Droid</string>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+  <string name="menu_title"></string>
+  <string name="reserved_instructions">© 2016-2017 Ninta Blackbox Alert. All rights reserved.</string>
+  <string name="reserved_line_change_instructions">© 2016-2017 Ninta Blackbox Alert. \nAll rights reserved.</string>
+  <!--Files name-->
+  <string name="font_file_bd">HelveticaNeueLTStd-Bd.otf</string>
+  <string name="font_file_lt">HelveticaNeueLTStd-Lt.otf</string>
+  <string name="font_file_roman">HelveticaNeueLTStd-Roman.otf</string>
+
+</resources>

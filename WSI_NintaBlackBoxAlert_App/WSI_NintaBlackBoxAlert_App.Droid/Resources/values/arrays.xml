@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- Side Menu options -->
+	    <string-array name="menu_names">
+	        <item>Emails</item>
+        <item>Notes</item>
+        <item>Calendar</item>
+        <item>Timesheets</item>
+        <item>Payslips</item>
+        <item>Leave Form</item>
+        <item>Search Contact Information</item>	       
+	    </string-array>
+
+ 
+	
+</resources>
+

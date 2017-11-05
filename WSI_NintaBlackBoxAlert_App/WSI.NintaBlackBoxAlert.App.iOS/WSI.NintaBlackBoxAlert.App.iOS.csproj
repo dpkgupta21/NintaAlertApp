@@ -1,0 +1,197 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>40b8c1dd-4a46-49b3-a792-7cee2daa6c59</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WSI.NintaBlackBoxAlert.App.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>WSI.NintaBlackBoxAlert.App.iOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution: Ninta AB</CodesignKey>
+    <CodesignProvision>59c5980f-c914-4c7d-98fe-0fa9e3d43dc0</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CodesignProvision>59c5980f-c914-4c7d-98fe-0fa9e3d43dc0</CodesignProvision>
+    <CodesignKey>iPhone Distribution: Ninta AB</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.SWRevealViewController">
+      <HintPath>..\..\packages\Xamarin.SWRevealViewController.2.3.0\lib\Xamarin.iOS\Xamarin.SWRevealViewController.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-Portrait.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-Portrait%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\BackGround.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Arrow.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Phone.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Phone.imageset\icon_phone.Iphone5-SE.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Phone.imageset\icon_phone.Iphone6-7.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Phone.imageset\icon_phone.Iphone6+7+.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Arrow.imageset\icon_arrow.Iphone5-SE.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Arrow.imageset\icon_arrow.Iphone6-7.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Arrow.imageset\icon_arrow.Iphone6+7+.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Close.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Close.imageset\icon_close.Iphone5-SE.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Close.imageset\icon_close.Iphone6-7.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Close.imageset\icon_close.Iphone6+7+.png" />
+    <ImageAsset Include="Resources\Images.xcassets\RoundBtn.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\RoundBtn.imageset\buttom.Iphone5-SE.png" />
+    <ImageAsset Include="Resources\Images.xcassets\RoundBtn.imageset\buttom.Iphone6-7.png" />
+    <ImageAsset Include="Resources\Images.xcassets\RoundBtn.imageset\buttom.Iphone6+7+.png" />
+    <ImageAsset Include="Resources\Images.xcassets\BigRoundBtn.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\BigRoundBtn.imageset\buttom-big.Iphone5-SE.png" />
+    <ImageAsset Include="Resources\Images.xcassets\BigRoundBtn.imageset\buttom-big.Iphone6-7.png" />
+    <ImageAsset Include="Resources\Images.xcassets\BigRoundBtn.imageset\buttom-big.Iphone6+7+.png" />
+    <ImageAsset Include="Resources\Images.xcassets\BackGround.imageset\background.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-57x57%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-60x60%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-App-76x76%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\background%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\background.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\background%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Menu.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Menu.imageset\menu.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Menu.imageset\menu%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Menu.imageset\menu%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="Resources\ITunesArtwork" />
+    <ITunesArtwork Include="Resources\ITunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="ViewControllers\Home\HomeVC.xib" />
+    <InterfaceDefinition Include="ViewControllers\Number\NumberChangeVC.xib" />
+    <InterfaceDefinition Include="ViewControllers\Settings\SettingsVc.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewControllers\ViewController.cs" />
+    <Compile Include="ViewControllers\ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Home\HomeVC.cs" />
+    <Compile Include="ViewControllers\Home\HomeVC.designer.cs">
+      <DependentUpon>HomeVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Number\NumberChangeVC.cs" />
+    <Compile Include="ViewControllers\Number\NumberChangeVC.designer.cs">
+      <DependentUpon>NumberChangeVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\Settings\SettingsVc.cs" />
+    <Compile Include="ViewControllers\Settings\SettingsVc.designer.cs">
+      <DependentUpon>SettingsVc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UserDefaultManager.cs" />
+    <Compile Include="Utilities\StringConstants.cs" />
+    <Compile Include="Utilities\Utilities.cs" />
+    <Compile Include="CustomViews\MKHUD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewControllers\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="ViewControllers\Home\" />
+    <Folder Include="ViewControllers\Number\" />
+    <Folder Include="ViewControllers\Settings\" />
+    <Folder Include="Resources\Images.xcassets\BackGround.imageset\" />
+    <Folder Include="Resources\Images.xcassets\Menu.imageset\" />
+    <Folder Include="Resources\Images.xcassets\Arrow.imageset\" />
+    <Folder Include="Resources\Images.xcassets\Phone.imageset\" />
+    <Folder Include="Resources\Images.xcassets\Close.imageset\" />
+    <Folder Include="Resources\Images.xcassets\RoundBtn.imageset\" />
+    <Folder Include="Resources\Images.xcassets\BigRoundBtn.imageset\" />
+    <Folder Include="CustomViews\" />
+    <Folder Include="Resources\Images.xcassets\Menu.imageset\" />
+  </ItemGroup>
+  <Import Project="..\WSI_NintaBlackBoxAlert_App.Lib\WSI_NintaBlackBoxAlert_App.Lib.projitems" Label="Shared" Condition="Exists('..\WSI_NintaBlackBoxAlert_App.Lib\WSI_NintaBlackBoxAlert_App.Lib.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

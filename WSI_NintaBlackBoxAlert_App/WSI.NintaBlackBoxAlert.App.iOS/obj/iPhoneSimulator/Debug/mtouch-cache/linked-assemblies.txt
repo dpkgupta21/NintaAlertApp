@@ -1,0 +1,16 @@
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Plugin.Connectivity.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.CSharp.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/WSI.NintaBlackBoxAlert.App.iOS.exe
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Newtonsoft.Json.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.SWRevealViewController.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Core.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Net.Http.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Runtime.Serialization.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Plugin.Connectivity.Abstractions.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.Linq.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.CSharp.dll

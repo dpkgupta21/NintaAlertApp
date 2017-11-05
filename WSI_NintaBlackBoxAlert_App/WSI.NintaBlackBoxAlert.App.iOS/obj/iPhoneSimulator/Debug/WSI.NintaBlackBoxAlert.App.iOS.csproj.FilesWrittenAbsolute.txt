@@ -1,0 +1,13 @@
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/WSI.NintaBlackBoxAlert.App.iOS.exe.mdb
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/WSI.NintaBlackBoxAlert.App.iOS.exe
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/WSI.NintaBlackBoxAlert.App.iOS.exe
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/obj/iPhoneSimulator/Debug/WSI.NintaBlackBoxAlert.App.iOS.exe.mdb
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/Xamarin.SWRevealViewController.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Users/DeepakGupta/Projects/WSI_NintaBlackBoxAlert_App/WSI_NintaBlackBoxAlert_App/WSI.NintaBlackBoxAlert.App.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
